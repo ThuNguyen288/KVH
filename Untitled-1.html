@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>  
+            body {
+                padding: 10px;
+                background-color: #E8D8C4;
+                overflow: visible;
+            }
+            header {
+                color: black;
+                text-align: center;
+                font-family:'Courier New', Courier, monospace;
+                background-color:#561C24;
+                padding: 20px;
+                font-size: 20px;
+            }
+            .topnav {
+                overflow: hidden;
+                background-color: #6D2932;
+            }
+            .topnav a {
+                display: block;
+                float: left;
+                padding: 10px 5px 10px 5px ;
+                text-align: center;
+                width: 30vw;
+                text-decoration: dotted;
+                color: white;
+
+            }
+            @media screen and (max-width: 600px) {
+                .topnav a {
+                    float: none;
+                    width: 100%;
+                }
+            }
+            .nav {
+                overflow: auto;
+                background-color: #2f0000;
+                float: left;
+                padding: 2vh 1vw 0 1vw ;
+                width: 20vw;
+                text-align: center;
+                height: 100vh;
+                font-size: 1.5vw;
+                font-style: italic;
+            }
+            .nav a {
+                color: #C7B7A3;
+                text-decoration: dotted;
+            }
+            .frame {
+                float: left;
+                width: 50vw;
+                height: 100vh;
+                background-color: white;
+                overflow: scroll;
+                padding-bottom: 20px;
+            }
+            .row::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            .sidebar {
+                float: left;
+                width: 23.679vw;
+            }
+            .footer {
+                padding: 2vw;
+                text-align: center;
+                background: black;
+                margin-top: 10px;
+                color: aliceblue;
+            }
+            @media screen and (max-width: 700px) {
+                .sidebar {
+                    float: none;
+                    width: 100%;
+                }
+                .frame {
+                    width: 72vw;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Kính vạn hoa chết chóc</h2>
+        </header>
+        <div class="topnav" >
+            <a href="#">Truyện</a>
+            <a href="#">KTT</a>
+            <a href="#">Phim</a>
+        </div>
+        <div class="row">
+            <div class="nav">
+                    <a href="Chương 01.htm"target="Chapter" >Chapter 1</a>
+                    <br> <br>
+                    <a href="Chương 01.htm"target="Chapter" >Chapter 2</a>
+                    &nbsp;
+                    <a href="Chương 01.htm"target="Chapter" >Chapter 3</a>
+                    <br> <br>
+                    <a href="Chương 01.htm"target="Chapter" >Chapter 4</a>
+                    <br> <br>
+                    <a href="Chương 01.htm"target="Chapter" >Chapter 5</a>
+                    &nbsp;
+                    <a href="Chương 01.htm"target="Chapter" >Chapter 6</a>
+                    <br> <br>
+                    <a href="Chương 01.htm"target="Chapter" >Chapter 7</a>
+                    <br> <br>
+                    <a href="Chương 01.htm"target="Chapter" >Chapter 8</a>
+                    &nbsp;
+                    <a href="Chương 01.htm"target="Chapter" >Chapter 9</a>
+                    <br> <br>
+                    <a href="Chương 01.htm"target="Chapter" >Chapter 10</a>
+                    <br> <br>
+                    <a href="Chương 01.htm"target="Chapter" >Chapter 11</a>
+                    &nbsp;
+                    <a href="Chương 01.htm"target="Chapter" >Chapter 12</a>
+                    <br> <br>
+            </div>
+            <div>
+                <iframe class="frame" src="Chương 01.htm" name="Chapter"></iframe>
+            </div>
+            <div class="sidebar">
+                <img src="bìa.jpg" alt="Ảnh bìa" width="100%">
+            </div>
+        </div>
+        <div class="footer">
+            <h5>thuthu2882002@gmail.com</h5>
+        </div>
+    </body>
+</html>
