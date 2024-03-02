@@ -6,12 +6,12 @@
         <style>  
             body {
                 padding: 10px;
-                background-color: #F7F7F7;
+                background-color: white;
                 overflow: visible;
                 margin: 0 150px 0 150px ;
             }
             header {
-                color: black;
+                color: white;
                 text-align: center;
                 font-family:'Courier New', Courier, monospace;
                 background-color:#561C24;
@@ -32,6 +32,7 @@
                 color: white;
 
             }
+            
             @media screen and (max-width: 600px) {
                 .topnav a {
                     float: none;
@@ -42,11 +43,11 @@
                 overflow: auto;
                 background-color: #2f0000;
                 float: left;
-                padding: 2% 1% 0 1% ;
+                padding: 2vh 1% 0 1% ;
                 width: 20%;
                 text-align: center;
-                height: 100%;
-                font-size: 1.5vw;
+                height: 88vh;
+                font-size: 10px;
                 font-style: italic;
             }
             .nav a {
@@ -59,7 +60,6 @@
                 height: 90vh;
                 background-color: beige;
                 overflow: scroll;
-                padding-bottom: 20px;
                 border: none;
             }
             .row::after {
@@ -73,6 +73,11 @@
                 background: black;
                 margin-top: 10px;
                 color: aliceblue;
+            }
+            @media screen and (max-width: 900px) {
+                body {
+                    margin: 0 100px 0 100px;
+                }
             }
             @media screen and (max-width: 800px) {
                 body {
