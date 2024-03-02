@@ -6,8 +6,9 @@
         <style>  
             body {
                 padding: 10px;
-                background-color: #E8D8C4;
+                background-color: #F7F7F7;
                 overflow: visible;
+                margin: 0 150px 0 150px ;
             }
             header {
                 color: black;
@@ -26,7 +27,7 @@
                 float: left;
                 padding: 10px 5px 10px 5px ;
                 text-align: center;
-                width: 30vw;
+                width: 30%;
                 text-decoration: dotted;
                 color: white;
 
@@ -41,7 +42,7 @@
                 overflow: auto;
                 background-color: #2f0000;
                 float: left;
-                padding: 2vh 1vw 0 1vw ;
+                padding: 2% 1% 0 1% ;
                 width: 20%;
                 text-align: center;
                 height: 100%;
@@ -54,20 +55,17 @@
             }
             .frame {
                 float: left;
-                width: 50%;
+                width: 78%;
                 height: 90vh;
-                background-color: white;
+                background-color: beige;
                 overflow: scroll;
                 padding-bottom: 20px;
+                border: none;
             }
             .row::after {
                 content: "";
                 display: table;
                 clear: both;
-            }
-            .sidebar {
-                float: left;
-                width: 27%;
             }
             .footer {
                 padding: 2vw;
@@ -76,13 +74,9 @@
                 margin-top: 10px;
                 color: aliceblue;
             }
-            @media screen and (max-width: 700px) {
-                .sidebar {
-                    float: none;
-                    width: 100%;
-                }
-                .frame {
-                    width: 77%;
+            @media screen and (max-width: 800px) {
+                body {
+                    margin: 0;
                 }
             }
         </style>
@@ -125,9 +119,6 @@
             </div>
             <div>
                 <iframe class="frame" src="Chương 01.htm" name="Chapter"></iframe>
-            </div>
-            <div class="sidebar">
-                <img src="bìa.jpg" alt="Ảnh bìa" width="100%">
             </div>
         </div>
         <div class="footer">
